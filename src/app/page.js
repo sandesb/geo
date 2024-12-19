@@ -44,14 +44,14 @@ export default function GeoFenceApp() {
             className="text-2xl font-bold text-blue-400 mb-2 cursor-pointer hover:underline"
             onClick={() => window.open(youtubeLink, '_blank')}
           >
-            🎁
+            Timro Gift 👉🎁 (Click)
           </button>
         </div>
       ) : (
         <div className="mt-8 bg-white shadow-md rounded-lg p-6 text-center max-w-md">
-          <h2 className="text-2xl font-bold text-red-600 mb-2">Oops!</h2>
+          <h2 className="text-2xl font-bold text-red-600 mb-2">Oho!</h2>
           <p className="text-lg text-gray-700">
-            You are outside the geofence. Please move to the specified area to celebrate with us!
+            Timi ghar pugekai chainau raicha. Go Home and Try Again hehe!
           </p>
         </div>
       )}
