@@ -26,7 +26,7 @@ export default function GeoFenceApp() {
   }, [insideGeofence]);
 
   if (loading) {
-    return <p className="text-center text-lg font-semibold text-gray-900">Loading...</p>;
+    return <p className="text-center text-lg font-semibold">Loading...</p>;
   }
 
   return (
@@ -51,7 +51,7 @@ export default function GeoFenceApp() {
         <div className="mt-8 bg-white shadow-md rounded-lg p-6 text-center max-w-md">
           <h2 className="text-2xl font-bold text-red-600 mb-2">Oho!</h2>
           <p className="text-lg text-gray-700">
-            Timi ghar pugekai chainau raicha. Go Home and Try Again hehe!
+            🤔Timi ta ghar pugekai rainachau. Go Home and Try Again hehe!
           </p>
         </div>
       )}
